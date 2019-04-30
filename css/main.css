@@ -1,0 +1,122 @@
+/*banner*/
+.ban {
+	width: 100%;
+	min-width: 1100px;
+	/*height: 100%;*/
+	background: url(../images/bg_02.jpg) no-repeat center;
+	-webkit-background-size: cover;
+	background-size: cover;
+	position: fixed;
+	left: 0;
+	top: 70px;
+	right: 0;
+	bottom: 0;
+	z-index: 99;
+}
+.ban .content{
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+}
+.ban .swiper_outer{
+	width: 371px;
+	height: 750px;
+	float: left;
+    background: url(../images/phone.png) no-repeat center;
+}
+.ban .swiper-container{
+	width: 304px ;
+	height: 533px;
+	margin-top: 103px;
+	/*border: 1px solid red;*/
+}
+.ban .swiper-wrapper{
+	width: 304px ;
+	height: 533px  ;
+}
+.ban .swiper-wrapper .swiper-slide{
+	width: 304px;
+	height: 533px  ;
+	margin-right: 10px;
+    overflow: hidden;
+}
+.ban .swiper-wrapper .swiper-slide:nth-child(1){
+    background: url(../images/im1.jpg) no-repeat center;
+}
+.ban .swiper-wrapper .swiper-slide:nth-child(2){
+    background: url(../images/im2.jpg) no-repeat center;
+}
+.ban .swiper-wrapper .swiper-slide:nth-child(3){
+    background: url(../images/im3.jpg) no-repeat center;
+}
+.ban .swiper-wrapper .swiper-slide:nth-child(4){
+    background: url(../images/im4.jpg) no-repeat center;
+}
+.ban .right{
+	float: left;
+	width: 655px;
+	margin-left: 70px;
+}
+.ban .right h2{
+	font:700 70px/74px "microsoft yahei";
+    color:#ffffff;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+.ban .right p{
+	font:400 33px/33px "microsoft yahei";
+    color:#ffffff;
+    margin-bottom: 40px;
+}
+.ban .right .ban_code{
+	width: 628px;
+	height: 160px;
+	padding-top: 28px;
+	background: url(../images/code_bg1.png) no-repeat center;
+}
+.ban .right .ban_code img{
+	width: 134px;
+	height: 134px;
+	display: block;
+	margin-left: 71px;
+}
+.ban .ban_ul{
+  margin-top: 30px;
+}
+.ban .ban_ul li{
+	float: left;
+	width: 25%;
+	height: 243px;
+	text-align: center;
+	padding-top: 34px;
+	margin-left: -12px;
+	background: url(../images/item1.png) no-repeat center;
+	box-sizing:border-box;
+}
+.ban .ban_ul li:nth-child(1){
+	margin-left: 0;
+}
+.ban .ban_ul li:nth-child(2){
+	background: url(../images/item2.png) no-repeat center;
+}
+.ban .ban_ul li:nth-child(3){
+	width: 171px;
+	height: 245px;
+	background: url(../images/item3.png) no-repeat center;
+}
+.ban .ban_ul li:nth-child(4){
+	width: 171px;
+	height: 245px;
+	background: url(../images/item5.png) no-repeat center;
+}
+.ban .ban_ul li h4{
+	font:700 24px/24px "microsoft yahei";
+    color:#9076ff;
+    margin-bottom: 15px;
+}
+.ban .ban_ul li p.item_p{
+	font:700 14px/20px "microsoft yahei";
+    color:#666666;
+}
+

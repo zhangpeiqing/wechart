@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<meta name="description" content="">
+	<meta name="Keywords" content="">
+	<title></title>
+	<!-- pc端地域标签 -->
+	<meta name="location" content="province=北京;city=北京">
+	<meta name="mobile-agent" content="format=html5; url=">
+	<meta name="applicable-device" content="pc">
+	<meta http-equiv="Cache-Control" content="no-transform" />
+	<meta http-equiv="Cache-Control" content="no-siteapp" />
+	<link rel="alternate" media="only screen and(max-width: 640px)" href="">
+	<!-- pc端地域标签 -->
+	<link rel="stylesheet" href="./css/animate.css">
+	<link rel="stylesheet" href="./css/public.css">
+	<link rel="stylesheet" href="./css/main.css">
+	<link rel="stylesheet" href="./css/swiper.min.css">
+	<!-- <link rel="stylesheet" media="only screen and(max-width:1300px)"  href="./css/css_1300.css"> -->
+	<!-- <link rel="stylesheet" media="only screen and (min-width:1300px) and (max-width:1600px)"  href="./css/css_1600.css"> -->
+	<script src="./js/jquery.min.js"></script>
+	<!-- <script src="./js/bounceText.js"></script> -->
+	<script src="./js/wow.min.js"></script>
+	<script src="./js/index.js"></script>
+	<script src="./js/swiper.min.js"></script>
+	<!-- pc端的适配 -->
+	<script type="text/javascript">
+	 function browserRedirect() {
+		var sUserAgent = navigator.userAgent.toLowerCase();  
+		var bIsIpad = sUserAgent.match(/ipad/i) == "ipad";  
+		var bIsIphoneOs = sUserAgent.match(/iphone os/i) == "iphone os";  
+		var bIsMidp = sUserAgent.match(/midp/i) == "midp";  
+		var bIsUc7 = sUserAgent.match(/rv:1.2.3.4/i) == "rv:1.2.3.4";  
+		var bIsUc = sUserAgent.match(/ucweb/i) == "ucweb";  
+		var bIsAndroid = sUserAgent.match(/android/i) == "android";  
+		var bIsCE = sUserAgent.match(/windows ce/i) == "windows ce";  
+		var bIsWM = sUserAgent.match(/windows mobile/i) == "windows mobile";  
+		if (bIsIpad || bIsIphoneOs || bIsMidp || bIsUc7 || bIsUc || bIsAndroid || bIsCE || bIsWM) {
+			// window.location.href = 'http://m.bj.offcn.com/zg/19xdgkc_m/';
+		}
+	}
+	browserRedirect();
+	</script>
+	<!-- 分校百度统计代码 -->
+<!-- <script type="text/javascript" src="http://www.offcn.com/statics/js/bdtop.js"></script> -->
+</head>
+<body style="overflow-x:hidden">
+
+<!-- header -->
+<div class="zgHead">
+	<div class="w clearfix">
+		<div class="zghl clearfix">
+			<a class="im1" href="http://bj.offcn.com/" target="_blank"><img  src="./images/logo.png" alt="" class="zgoffcn"></a>
+			<dl>
+				<a href="http://bj.offcn.com/" target="_blank">中公首页</a>
+				<a href="https://www.51gouke.com/bjjm/" target="_blank" rel="nofollow">面授课程</a>
+				<a href="http://www.letushu.com/" target="_blank" rel="nofollow">图书商城</a>
+				<a href="http://beijing.eoffcn.com/" target="_blank" rel="nofollow">网校课程</a>
+				<a href="http://19.offcn.com/" target="_blank" rel="nofollow">直播</a>
+			</dl>
+		</div>
+		<div class="zghr clearfix">
+			<a onClick="NTKF.im_openInPageChat('kf_10353_1536732545828')"><img src="./images/salph.png" alt="">咨询电话：010-51657188</a>
+		</div>
+	</div>
+</div>
+<style>
+@media only screen and (max-width:1300px){
+ .ban .swiper_outer{
+	width: 371px;
+	height: 750px;
+	float: left;
+    background: url(./images/phone.png) no-repeat center;
+    -webkit-background-size: 70%;
+    background-size: 70%;
+}
+.ban .swiper-container{
+	width: 284px ;
+	height: 513px;
+	margin-top: 114px;
+	
+}
+.ban .swiper-wrapper{
+	width: 284px ;
+	height: 513px  ;
+}
+.ban .swiper-wrapper .swiper-slide{
+	width: 284px;
+	height: 513px  ;
+	margin-right: 0px;
+	 -webkit-background-size: 75%!important;
+    background-size: 75%!important;
+    overflow: hidden;
+}
+.ban .swiper-wrapper .swiper-slide:nth-child(1){
+    background: url(./images/im1.jpg) no-repeat center;
+}
+.ban .swiper-wrapper .swiper-slide:nth-child(2){
+    background: url(./images/im2.jpg) no-repeat center;
+}
+.ban .swiper-wrapper .swiper-slide:nth-child(3){
+    background: url(./images/im3.jpg) no-repeat center;
+}
+.ban .swiper-wrapper .swiper-slide:nth-child(4){
+    background: url(./images/im4.jpg) no-repeat center;
+}
+.ban .right{
+	float: left;
+	width: 620px;
+	margin-left: 24px;
+}
+.ban .right h2{
+	font:700 36px/44px "microsoft yahei";
+    color:#ffffff;
+    margin-top: 110px;
+    margin-bottom: 10px;
+}
+.ban .right p{
+	font:400 25px/28px "microsoft yahei";
+    color:#ffffff;
+    margin-bottom: 16px;
+}
+.ban .right .ban_code{
+    width: 590px;
+    height: 150px;
+    padding-top: 27px;
+    box-sizing:border-box;
+	background: url(./images/code_bg1.png) no-repeat center;
+	-webkit-background-size: 80%;
+	background-size: 80%;
+}
+.ban .right .ban_code img{
+	width: 100px;
+	height: 100px;
+	display: block;
+	margin-left: 122px;
+}
+.ban .ban_ul{
+  margin-top: -5px;
+}
+.ban .ban_ul li{
+	float: left;
+	width: 25%;
+	height: 243px;
+	text-align: center;
+	padding-top: 52px;
+	margin-left: -12px;
+	background: url(./images/item1.png) no-repeat center;
+	-webkit-background-size: 80%;
+	background-size: 80%;
+	box-sizing:border-box;
+}
+.ban .ban_ul li:nth-child(1){
+	margin-left: 0;
+}
+.ban .ban_ul li:nth-child(2){
+	background: url(./images/item2.png) no-repeat center;
+	-webkit-background-size: 80%;
+	background-size: 80%;
+
+}
+.ban .ban_ul li:nth-child(3){
+	width: 171px;
+	height: 245px;
+	background: url(./images/item3.png) no-repeat center;
+	-webkit-background-size:74%;
+	background-size:74%;
+
+}
+.ban .ban_ul li:nth-child(4){
+	width: 171px;
+	height: 245px;
+	background: url(./images/item5.png) no-repeat center;
+	-webkit-background-size:74%;
+	background-size:74%;
+
+}
+.ban .ban_ul li h4{
+	font:700 18px/18px "microsoft yahei";
+    color:#9076ff;
+    margin-bottom: 6px;
+}
+.ban .ban_ul li p.item_p{
+	font:700 12px/16px "microsoft yahei";
+    color:#666666;
+}
+}
+</style>
+<!-- ban -->
+<div class="ban">
+
+	<div class="content w clearfix">
+		<!-- Swiper -->
+	<div class="swiper_outer">
+		<div class="swiper-container">
+    	<div class="swiper-wrapper">
+      	<div class="swiper-slide"></div>
+      	<div class="swiper-slide"></div>
+      	<div class="swiper-slide"></div>
+      	<div class="swiper-slide"></div>
+      </div>
+   </div>
+   </div>
+   <div class="right">
+		<h2>
+			中公国考<br>职位查询系统小程序
+		</h2>
+		<p>全新上线  快速查询</p>
+		<div class="ban_code">
+			<img src="./images/mini_code.png" alt="">
+		</div>
+		<ul class="ban_ul clearfix">
+			<li>
+				<h4>实时更新</h4>
+				<p class="item_p">2020国考报考时<br>报名数据实时更新</p>
+			</li>
+			<li>
+				<h4>快速查询</h4>
+				<p class="item_p">微信搜一搜<br>查询国考职位</p>
+			</li>
+			<li>
+				<h4>备考参考</h4>
+				<p class="item_p">2020国考备考参考<br>心中有数 及早备考</p>
+			</li>
+			<li>
+				<h4>职位匹配</h4>
+				<p class="item_p">根据专业等信息<br>匹配可报考职位</p>
+			</li>
+		</ul>
+  </div>
+	</div>
+</div>
+
+<!-- fixed_r -->
+<style>
+
+	a {
+		text-decoration: none;
+	}
+	.fxdrw {
+		width: 128px;
+		height: 568px;
+		position: fixed;
+		right: 2px;
+		top: 20%;
+		/*margin-top: -284px;*/
+		z-index: 9999;
+		display: none;
+	}
+	.ads {
+		/*padding-top: 5px;*/
+		padding-bottom: 5px;
+		width: 100%;
+		height: auto;
+		border:1px solid #ff0000;
+		box-shadow: 0px 3px 10px rgba(0,0,0,0.2);
+		background: #fff;
+	}
+	.ads a {
+		display: block;
+		margin-left: 4px;
+		margin-right: 5px;
+		border-bottom:1px dashed #ff0000;
+		height: 22px;
+		cursor: pointer;
+	}
+	.ads a:hover{
+		font-weight: 700;
+		color: #fff;
+	}
+	.ads a span {
+		display: inline-block;
+		width: 30px;
+		height: 22px;
+		float: left;
+		font: 700 12px/14px "microsoft yahei";
+		color: #333;
+		margin-left: 3px;
+		margin-right: 3px;
+		box-sizing: border-box;
+		padding-top: 3px;
+		padding-bottom: 2px;
+		transition: 0.3s
+	}
+	.ads a p {
+		float: left;
+		font: 400 12px/22px "microsoft yahei";
+		color: #333;
+		transition: 0.3s
+	}
+	.ads a:hover span,.ads a:hover p{
+		color:#ff0000;
+	}
+	.hbot {
+		width: 100%;
+		height: 70px;
+		position: relative;
+	}
+	.hbot a {
+		float: left;
+		width: 40px;
+		height: 70px;
+		margin-top: 4px;
+		background: #fff;
+		box-shadow: 0px 0px 10px #dcdada;
+		text-align: center;
+		transition: 0.3s
+	}
+	.hbot a:hover {
+		background: #e60012;
+	}
+	.hbot a:hover p {
+		color:#fff;
+		font-weight: bold;
+	}
+	.code {
+		position: absolute;
+		left: -165px;
+		top: -49px;
+		display: none;
+	}
+	.code img {
+		width: 166px;
+	}
+	.hbot a:nth-child(2){
+		margin-left: 4px;
+		margin-right: 4px;
+	}
+	.hbot a img {
+		margin-top: 5px;
+		margin-bottom: 5px;
+		vertical-align: middle;
+	}
+	.hbot a p {
+		font: 400 12px/16px "microsoft yahei";
+		color: #e60012;
+		text-align: center;
+		transition: 0.3s
+	}
+	.top {
+		position: absolute;
+		width: 33px;
+		height: 24px;
+		bottom: -16px;
+		left: 50%;
+		margin-left: -16.5px;
+		background: url(./images/top.png) no-repeat;
+		cursor: pointer;
+	}
+	.onlikj {
+		margin: 0!important;
+		padding: 0!important;
+		text-align: center;
+		background: #e60012;
+		height: 35px!important;
+		font: 700 16px/35px "microsoft yahei";
+		color: #fff;
+	}
+	.onlikj img {
+		vertical-align: middle;
+		margin-right: 5px;
+		margin-top: -4px;
+	}
+	.online {
+		width: 45px;
+		height: 190px;
+		position: fixed;
+		right: 1px;
+		top: 30%;
+		background: url(./images/online.png) no-repeat;
+		z-index: 99;
+		display: block;
+	}
+	.close {
+		position: absolute;
+		width: 26px;
+		height: 26px;
+		background: url(./images/close.png) no-repeat;
+		right: 1px;
+		top: -29px;
+		cursor: pointer;
+	}
+	@media only screen and (max-width: 1400px) {
+		.fxdrw {
+			width: 128px;
+			height: 550px;
+			position: fixed;
+			right: 2px;
+			top: 11%;
+			z-index: 9999;
+			margin-top: 0;
+		}
+	}
+</style>
+<div class="fxdrw">
+	<ul class="ads">
+		<a onClick="NTKF.im_openInPageChat('kf_10353_1536732545828')" class="onlikj"><img src="./images/phh.png" alt="">在线咨询</a>
+		<a onClick="NTKF.im_openInPageChat('kf_10353_1536732545828')" class="clearfix">
+			<span>金码</span>
+			<p>010-51657188</p>
+		</a>
+		<a onClick="NTKF.im_openInPageChat('kf_10353_1537342153148')" class="clearfix">
+			<span>昌平</span>
+			<p>010-51657153</p>
+		</a>
+		<a onClick="NTKF.im_openInPageChat('kf_10353_1537342266921')" class="clearfix">
+			<span>国贸</span>
+			<p>010-51661493</p>
+		</a>
+		<a onClick="NTKF.im_openInPageChat('kf_10353_1537342322486')" class="clearfix">
+			<span>通州</span>
+			<p>010-51669714</p>
+		</a>
+		<a onClick="NTKF.im_openInPageChat('kf_10353_1537342342729')" class="clearfix">
+			<span>大兴</span>
+			<p>010-51653156</p>
+		</a>
+		<a onClick="NTKF.im_openInPageChat('kf_10353_1537342410768')" class="clearfix">
+			<span>燕郊</span>
+			<p>010-61595912</p>
+		</a>
+		<a onClick="NTKF.im_openInPageChat('kf_10353_1536732545828')" class="clearfix">
+			<span>数码</span>
+			<p>010-51650199</p>
+		</a>
+		<a onClick="NTKF.im_openInPageChat('kf_10353_1537434899494')" class="clearfix">
+			<span>交大</span>
+			<p>010-51661442</p>
+		</a>
+		<a onClick="NTKF.im_openInPageChat('kf_10353_1537436243538')" class="clearfix">
+			<span>管庄</span>
+			<p>010-51659743</p>
+		</a>
+		<a onClick="NTKF.im_openInPageChat('kf_10353_1536732545828')" class="clearfix">
+			<span>良乡</span>
+			<p>010-59244055</p>
+		</a>
+		<a onClick="NTKF.im_openInPageChat('kf_10353_1536732545828')" class="clearfix" style="height: 34px;">
+			<span>航天桥</span>
+			<p style="padding-top: 6px;">010-51291054</p>
+		</a>
+		<a onClick="NTKF.im_openInPageChat('kf_10353_1537342359586')" class="clearfix" style="height: 34px;">
+			<span>西客站</span>
+			<p style="padding-top: 6px;">010-51668694</p>
+		</a>
+		<a onClick="NTKF.im_openInPageChat('kf_10353_1537342391185')" class="clearfix" style="height: 34px;">
+			<span>惠新东街</span>
+			<p style="padding-top: 6px;">010-51650351</p>
+		</a>
+		<a onClick="NTKF.im_openInPageChat('kf_10353_1536732545828')" class="clearfix">
+			<span>順义</span>
+			<p>17326807037</p>
+		</a>
+		<a onClick="NTKF.im_openInPageChat('kf_10353_1536732545828')" class="clearfix" style="height: 34px;">
+			<span>首经贸</span>
+			<p style="padding-top: 6px;">13121582205</p>
+		</a>
+		<a onClick="NTKF.im_openInPageChat('kf_10353_1536732545828')" class="clearfix" style="height: 34px;border-bottom:none">
+			<span>华电北农</span>
+			<p style="padding-top: 6px;">17600006603</p>
+		</a>
+	</ul>
+	<dl class="hbot">
+		<a class="dd1">
+			<img src="./images/lo1t.png" alt="">
+			<p>题库<br>APP</p>
+		</a>
+		<a href="http://bj.offcn.com/zg/13bjzxhd/exchange.html" target="_blank">
+			<img src="./images/lo2t.png" alt="">
+			<p>微信<br>咨询</p>
+		</a>
+		<a href="http://bj.offcn.com/zg/13bjzxhd/exchange.html" target="_blank">
+			<img src="./images/lo3t.png" alt="">
+			<p>加入<br>QQ群</p>
+		</a>
+		<div class="code">
+			<img src="./images/code.png" alt="">
+		</div>
+	</dl>
+	<div class="close"></div>
+</div>
+<div class="online"></div>
+<script>
+	$(".hbot a").each(function(index){
+		$(this).hover(function(){
+			$(this).children("img").attr("src","./images/lo"+(index+1)+".png");
+		},function(){
+			$(this).children("img").attr("src","./images/lo"+(index+1)+"t.png");
+		})
+		$('.hbot .dd1').hover(function(){
+			$(".code").show(0,function(){
+				$(this).hover(function(){
+					$(this).show()
+				},function(){
+					$(this).hide()
+				})
+			})
+		},function(){
+			$(".code").hide()
+		})
+	})
+	$(".top").click(function(){
+		$("html,body").animate({scrollTop:0}, 700);
+	})
+
+	$('.close').click(function () {
+		$(this).parent().slideUp(300, function () {
+			$('.online').slideDown();
+		});
+	});
+	$('.online').click(function () {
+		$('.online').slideUp(300, function () {
+			$('.fxdrw').slideDown();
+		});
+
+	});
+</script>
+<!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper('.swiper-container', {
+      slidesPerView: 1,
+      spaceBetween: 10,
+       effect: 'fade',
+       autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
+      },
+      // loop:true
+    });
+  </script>
+<script>
+var _hmt = _hmt || [];
+
+(function() {
+
+  var hm = document.createElement("script");
+
+  hm.src = "https://hm.baidu.com/hm.js?4d997e72f9176f2cfe0746b710c46d55";
+
+  var s = document.getElementsByTagName("script")[0]; 
+
+  s.parentNode.insertBefore(hm, s);
+
+})();
+</script>
+<!-- 【策划:】【设计:卢延庆】【制作:张培青】2019.   -->
+<script type="text/javascript" src="http://www.offcn.com/statics/js/bdtj_bj.js"></script>
+<script type="text/javascript" src=" http://www.offcn.com/statics/js/bdbot.js"></script>
+<script type="text/JavaScript" src="http://bj.offcn.com/statics/js/zgjs/xiaoneng.js"></script>
+</body>
+</html>
